@@ -1,11 +1,1 @@
-# ignore all the temp files
-tmp/stats/*
-tmp/pnts/*
-tmp/mat/*
-tmp/fw_pnts/*
-tmp/drft_trc/*
-tmp/drft_crct/*
-tmp/crop/*
-tmp/bsline/*
-tmp/brcd/*
-tmp/all_pnts/*
+
