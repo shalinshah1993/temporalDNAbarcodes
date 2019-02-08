@@ -1,3 +1,6 @@
+# Temporal DNA barcodes
+This software is part of the temporal DNA barcoding framework. It is a single-molecule imaging techqniue that uses time-domain to encode information for optical multiplexing. 
+
 ## Information extraction scripts
 
 A set of Matlab scripts which can act as pipeline to extract information from the raw image stack. There are several steps involved to extract meaningful information from the recorded raw image stacks. The first step is data-collection \textit{i.e} recording an image stack using TIRF microscope. Once we have the raw data, we convert the proprietary Leica lif file to a mat file using the `bfmatlab` library. This can help us with the development of the programmable downstream MATLAB scripts as the raw data is now available in the supported format. 
