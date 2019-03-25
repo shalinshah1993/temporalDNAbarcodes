@@ -1,5 +1,9 @@
 # Temporal DNA barcodes
-This software is part of the temporal DNA barcoding framework. It is a single-molecule imaging techqniue that uses time-domain to encode information for optical multiplexing. 
+These software scripts are a part of the temporal DNA barcoding framework. It is a single-molecule imaging techqniue that uses time-domain to encode information for optical multiplexing. Although, the scripts were developed to our framework, they can be used for any arbitrary project that requires data extraction from fluorescence microscopy data.
+
+If you find our scripts helpful, please cite our paper:
+
+`Shalin Shah, Abhishek Dubey, and John Reif. "Programming temporal DNA barcodes for single-molecule fingerprinting". Nano Letters (2019) DOI: 10.1021/acs.nanolett.9b00590`
 
 ## Information extraction scripts
 
