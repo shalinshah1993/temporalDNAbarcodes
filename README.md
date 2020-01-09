@@ -1,4 +1,10 @@
-# Temporal DNA barcodes
+# ExTemp: A computational and image-processing suite for extracting temporal barcodes
+
+[![GitHub release](https://img.shields.io/github/release/ailiop/idvf.svg)](https://github.com/shalinshah1993/temporalDNAbarcodes/releases/)
+[![GitHub license](https://img.shields.io/github/license/shalinshah1993/temporalDNAbarcodes.svg)](https://github.com/ailiop/temporalDNAbarcodes/blob/master/LICENSE)
+[![GitHub all releases](https://img.shields.io/github/downloads/shalinshah1993/temporalDNAbarcodes/total.svg)](https://github.com/shalinshah1993/temporalDNAbarcodes/releases/)
+![GitHub issues](https://img.shields.io/github/issues/shalinshah1993/temporalDNAbarcodes)
+
 These software scripts are a part of the temporal DNA barcoding framework. It is a single-molecule imaging techqniue that uses time-domain to encode information for optical multiplexing. Although, the scripts were developed to our framework, they can be used for any arbitrary project that requires data extraction from fluorescence microscopy data.
 
 If you find our scripts helpful, please cite our paper(s):
