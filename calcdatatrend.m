@@ -5,7 +5,7 @@ function calcdatatrend(file, pDegree)
     %
     % file should contain full name of video with its extension (eg. AVI)
     %
-    % pDegree
+    % pDegree should be degree of approximating polynomial (usually around 4 - 10)
 
     % find file inside mat folder (uncropped, undrftcrcted)
     fileName = strsplit(file, '.');
