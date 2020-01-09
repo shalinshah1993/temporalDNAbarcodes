@@ -16,6 +16,9 @@ If you find our scripts helpful, please cite our paper(s):
 `Shalin Shah, and John Reif. "Temporal DNA Barcodes: A Time-Based Approach for Single-Molecule Imaging." International Conference on DNA Computing and Molecular Programming. Springer, Cham, 2018. DOI: 10.1007/978-3-030-00030-1_5` [[PDF]](https://link.springer.com/content/pdf/10.1007%2F978-3-030-00030-1_5.pdf)
 
 ## Information extraction scripts
+| ![Computer vision pipeline](https://github.com/shalinshah1993/temporalDNAbarcodes/blob/master/PIPELINE.png) | 
+|:--:| 
+| *Computer vision pipeline implemented using this suite. The figure is adapted (adapted) with permission from  `Shalin Shah, Abhishek K. Dubey, and John Reif, "Programming Temporal DNA Barcodes for Single-Molecule Fingerprinting." Nano Letters 2019 19 (4), 2668-2673.` Copyright 2019 American Chemical Society* |
 
 A set of Matlab scripts which can act as pipeline to extract information from the raw image stack. There are several steps involved to extract meaningful information from the recorded raw image stacks. The first step is data-collection \textit{i.e} recording an image stack using TIRF microscope. Once we have the raw data, we convert the proprietary Leica lif file to a mat file using the `bfmatlab` library. This can help us with the development of the programmable downstream MATLAB scripts as the raw data is now available in the supported format. 
 
