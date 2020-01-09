@@ -1,5 +1,5 @@
 ---
-title: '``ExTemp``: A computational and image-processing suite for extracting temporal barcodes
+title: 'ExTemp: A computational and image-processing suite for extracting temporal barcodes'
 tags:
   - object detection
   - signal processing
