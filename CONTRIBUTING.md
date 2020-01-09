@@ -109,10 +109,7 @@ following rules:
     existing issues or pull requests).
 -   Function interface documentation should be comprehensive and follow the
     format of existing functions.
--   Function and variable names are in `camelCase`; script names are in
-    `snake_case`.  Typically, matrix/array names start with an uppercase
-    letter, while scalar/vector/function names start with a lowercase
-    letter.
+-   Function and variable names are in `camelCase`; Named constants (including globals) should be all `uppercase`.
 -   All code blocks should be briefly documented.
 -   We prefer 4-space indentation (no tabs), operator/operand alignment
     across multiple lines, and 80-column line width.
