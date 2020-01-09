@@ -17,7 +17,7 @@ authors:
     orcid: 0000-0001-8052-7416
     affiliation: 1
   - name: John Reif
-    affiliation: 1, 2
+    affiliation: "1, 2"
 affiliations:
   - name: Department of Electrical & Computer Engineering, Duke University, Durham, NC 27708, USA
     index: 1
