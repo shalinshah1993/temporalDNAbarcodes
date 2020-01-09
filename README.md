@@ -9,7 +9,7 @@
 
 ## Contents
 
-- [Overview](#overview)
+- [What is ExTemp?](#overview)
 - [Software description](#software)
 	- [Overview](#software-overview)
 	- [Module description](#software-module)
@@ -18,7 +18,7 @@
 - [Contributors](#contributors)
 
 <a name="overview"></a>
-These software scripts are a part of the temporal DNA barcoding framework. It is a single-molecule imaging techqniue that uses time-domain to encode information for optical multiplexing. Although, the scripts were developed to our framework, they can be used for any arbitrary project that requires data extraction from fluorescence microscopy data.
+This software contains modules that are a part of the temporal DNA barcoding framework. It is a single-molecule imaging techqniue that uses time-domain to encode information for optical multiplexing. Although, the scripts were developed to our framework, they can be used for any arbitrary microscopy project that requires data extraction from fluorescence microscopy data.
 
 If you find our suite helpful, please cite our paper(s):
 
@@ -77,10 +77,10 @@ The `ExTemp` code is licensed under the [GNU general public licensev3.0][license
 
 ## Contributors
 -   *Design, development, testing:*  
-    Shalin Shah, and Abhishek Dubey
-    Department of Electrical & Computer Engineering, Duke University
+    Shalin Shah, and Abhishek Dubey <br>
+    Department of Electrical & Computer Engineering, Duke University <br>
     Department of Computer Science, Duke University
 
 -   *Supervision:*  
-    John Reif
+    John Reif <br>
     Department of Computer Science, Duke University
