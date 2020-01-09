@@ -16,6 +16,7 @@
 	- [Module description](#software-module)
   - [Dependencies](#software-dependencies)
 - [License and community guidelines](#license-contrib-reports)
+- [System configuration](#system)
 - [Contributors](#contributors)
 - [Acknowledgements](#acknowledge)
 
@@ -46,7 +47,9 @@ Once the drift corrected data stack is available, we apply several filters to lo
 
 <a name="software-install"></a>
 ### Installation
-To use `ExTemp`, simply add its top-level directory to the MATLAB path. All functions are organized in packages. Individual modules are described in detail below. Most modules are stand-alone i.e they take in a file process the intermediate step of pipeline and returns processed output which can act as an input for next sub-step of the pipeline.
+To use `ExTemp`, simply add its top-level directory to the MATLAB path. All functions are organized in packages. Most modules are stand-alone i.e they take in a file process the intermediate step of pipeline and returns processed output which can act as an input for next sub-step of the pipeline.
+
+For testing, purposes you can use lif file inside lif folder called `sample_date.avi`. For example, to convert it to mat, inside MATLAB terminal, type `lif2mat sample_data.avi`. Individual modules are described in detail below.
 
 <a name="software-module"></a>
 ### Module description (sample use)
@@ -118,8 +121,11 @@ The `ExTemp` code is licensed under the [GNU general public license v3.0](https:
 [conduct]: https://github.com/ailiop/idvf/blob/master/CODE_OF_CONDUCT.md
 
 
-<a name="contributors"></a>
+<a name="system"></a>
+## System environment
+The `ExTemp` code was developed and tested on MATLAB R2018b. The machine used for development and testing has following config: 10x Tensor TXR231-1000R D126 Intel(R) Xeon(R) CPU E5-2640 v4 @ 2.40GHz (512GB RAM - 40 cores). Note that the use of cluster machine is crucial since most raw data files are several hundreds of gigabytes making it extremely difficult to handle them. Therefore, in order to avoid dealing with memory overflow issue, we use machines with much larger available main memory.
 
+<a name="contributors"></a>
 ## Contributors
 -   *Design, development, testing:*  
     Shalin Shah, and Abhishek Dubey <br>
