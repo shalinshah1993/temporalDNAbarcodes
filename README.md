@@ -16,9 +16,10 @@
   - [Dependencies](#software-dependencies)
 - [License and community guidelines](#license-contrib-reports)
 - [Contributors](#contributors)
+- [Acknowledgements](#acknowledge)
 
 <a name="overview"></a>
-This software contains modules that are a part of the temporal DNA barcoding framework. It is a single-molecule imaging techqniue that uses time-domain to encode information for optical multiplexing. Although, the scripts were developed to our framework, they can be used for any arbitrary microscopy project that requires data extraction from fluorescence microscopy data.
+This software contains modules that are a part of the temporal DNA barcoding framework. It is a single-molecule imaging technique that uses time-domain to encode information for optical multiplexing. Although, the scripts were developed to our framework, they can be used for any arbitrary microscopy project that requires data extraction from fluorescence microscopy data.
 
 If you find our suite helpful, please cite our paper(s):
 
@@ -36,9 +37,9 @@ If you find our suite helpful, please cite our paper(s):
 
 <a name="software-overview"></a>
 
-A set of Matlab scripts which can act as pipeline to extract information from the raw image stack. There are several steps involved to extract meaningful information from the recorded raw image stacks. The first step is data-collection \textit{i.e} recording an image stack using TIRF microscope. Once we have the raw data, we convert the proprietary Leica lif file to a mat file using the `bfmatlab` library. This can help us with the development of the programmable downstream MATLAB scripts as the raw data is now available in the supported format. 
+A set of MATLAB scripts which can act as pipeline to extract information from the raw image stack. There are several steps involved to extract meaningful information from the recorded raw image stacks. The first step is data-collection \textit{i.e} recording an image stack using TIRF microscope. Once we have the raw data, we convert the proprietary Leica lif file to a mat file using the `bfmatlab` library. This can help us with the development of the programmable downstream MATLAB scripts as the raw data is now available in the supported format. 
 
-The next step includes the estimation and correction of the lateral (x, y-direction) and axial (z-direction) drift. For lateral drift correction, we use the redundant cross-correlation algorithm proposed by `Wang et al. Optics Express (2014)` by incorporating their library within our MATLAB scripts.
+The next step includes the estimation and correction of the lateral (x-axis, y-axis) and axial (z-axis) drift. For lateral drift correction, we use the redundant cross-correlation algorithm proposed by `Wang et al. Optics Express (2014)` by incorporating their library within our MATLAB scripts.
 
 Once the drift corrected data stack is available, we apply several filters to locate the localizations and find their centroid coordinates. After extracting the possible set of device coordinates, the temporal intensity time trace is generated assuming the point spread function of 3 X 3 pixels. Once we obtain the intensity time trace for each localization, the next step includes applying the wavelet filter. The filtered temporal barcodes are clustered in two or three states depending on the device using the unsupervised mean shift clustering technique to obtain a state chain. This state chain can be analyzed to extract parameters such as dark-time, on-time, double-blink etc.
 
@@ -84,3 +85,7 @@ The `ExTemp` code is licensed under the [GNU general public licensev3.0][license
 -   *Supervision:*  
     John Reif <br>
     Department of Computer Science, Duke University
+
+<a name="acknowledge"></a>
+## Acknowledgements
+This work was supported by National Science Foundation Grants `CCF-1813805` and `CCF-1617791`.
