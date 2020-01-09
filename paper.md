@@ -15,7 +15,7 @@ authors:
     affiliation: 1
   - name: Abhishek Dubey
     orcid: 0000-0001-8052-7416
-    affiliation: 1
+    affiliation: "1, 3"
   - name: John Reif
     affiliation: "1, 2"
 affiliations:
@@ -23,6 +23,8 @@ affiliations:
     index: 1
   - name: Department of Computer Science, Duke University, Durham, NC 27708, USA
     index: 2
+  - name: Computational Sciences and Engineering Division, Health Data Sciences Institute, Oak Ridge National Lab, Oak Ridge, Tennessee 37831, United States
+    index: 3
 date: 9 January 2020
 bibliography: references.bib
 ---
