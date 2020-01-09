@@ -36,7 +36,7 @@ We provide a package for fast and accurate extraction of temporal barcodes from 
 
 Once the drift corrected data stack is available, our algorithm applies several signal processing filters[@shah2019programming] to locate the localizations and find their centroid coordinates. After extracting the possible set of device coordinates, the temporal intensity time trace is generated assuming the point spread function of 3 X 3 pixels. Once we obtain the intensity time trace for each localization, the next step includes applying the wavelet filter. The filtered temporal barcodes are clustered in two or three states depending on the device using the unsupervised mean shift clustering technique to obtain a state chain. This state chain can be analyzed to extract parameters such as dark-time, on-time, double-blink etc.
 
-A pre-release version of ``ExTemp`` has been used in scientific publications to demonstrate the computational pipeline, signal processing [@shah2019improved, @shah2019programming] and potential applications [@shah2018temporal].  The ``ExTemp`` package is implemented in MATLAB.
+A pre-release version of ``ExTemp`` has been used in scientific publications to demonstrate the computational pipeline, signal processing [@shah2019improved][@shah2019programming] and potential applications [@shah2018temporal].  The ``ExTemp`` package is implemented in MATLAB.
 
 
 
