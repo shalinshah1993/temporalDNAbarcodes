@@ -67,7 +67,7 @@ Once the drift corrected data stack is available, we apply several filters to lo
 
 ## License and community guidelines
 
-The `ExTemp` code is licensed under the [GNU general public licensev3.0][license]. If you wish to contribute to idvf or report any bugs/issues, please see our [contribution guidelines][contrib] and [code of conduct][conduct].
+The `ExTemp` code is licensed under the [GNU general public license v3.0](https://github.com/shalinshah1993/temporalDNAbarcodes/blob/master/LICENSE). If you wish to contribute to idvf or report any bugs/issues, please see our [contribution guidelines](https://github.com/shalinshah1993/temporalDNAbarcodes/blob/master/CONTRIBUTING.md) and [code of conduct](https://github.com/shalinshah1993/temporalDNAbarcodes/blob/master/CODE_OF_CONDUCT.md).
 
 [license]: https://github.com/ailiop/idvf/blob/master/LICENSE
 [contrib]: https://github.com/ailiop/idvf/blob/master/CONTRIBUTING.md
