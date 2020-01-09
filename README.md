@@ -12,6 +12,7 @@
 - [What is ExTemp?](#overview)
 - [Software description](#software)
 	- [Overview](#software-overview)
+	- [Install](#software-install)
 	- [Module description](#software-module)
   - [Dependencies](#software-dependencies)
 - [License and community guidelines](#license-contrib-reports)
@@ -42,6 +43,10 @@ A set of MATLAB scripts which can act as pipeline to extract information from th
 The next step includes the estimation and correction of the lateral (x-axis, y-axis) and axial (z-axis) drift. For lateral drift correction, we use the redundant cross-correlation algorithm proposed by `Wang et al. Optics Express (2014)` by incorporating their library within our MATLAB scripts.
 
 Once the drift corrected data stack is available, we apply several filters to locate the localizations and find their centroid coordinates. After extracting the possible set of device coordinates, the temporal intensity time trace is generated assuming the point spread function of 3 X 3 pixels. Once we obtain the intensity time trace for each localization, the next step includes applying the wavelet filter. The filtered temporal barcodes are clustered in two or three states depending on the device using the unsupervised mean shift clustering technique to obtain a state chain. This state chain can be analyzed to extract parameters such as dark-time, on-time, double-blink etc.
+
+<a name="software-install"></a>
+### Installation
+To use `ExTemp`, simply add its top-level directory to the MATLAB path. All functions are organized in packages. Individual modules are described in detail below.
 
 <a name="software-module"></a>
 ### Module description
