@@ -109,6 +109,7 @@ analyzebarcode <file_name> <expTime> %loads file in /tmp/st_chn/ folder, outputs
 - bfmatlab - https://docs.openmicroscopy.org/bio-formats/5.3.4/users/matlab/index.html
 - meanshift - https://www.mathworks.com/matlabcentral/fileexchange/10161-mean-shift-clustering
 - sauvola - https://www.mathworks.com/matlabcentral/fileexchange/40266-sauvola-local-image-thresholding
+- Statistics and machine learning toolbox (MATLAB): https://www.mathworks.com/products/statistics.html
 
 <a name="license-contrib-reports"></a>
 
