@@ -49,58 +49,58 @@ Once the drift corrected data stack is available, we apply several filters to lo
 ### Installation
 To use `ExTemp`, simply add its top-level directory to the MATLAB path. All functions are organized in packages. Most modules are stand-alone i.e they take in a file process the intermediate step of pipeline and returns processed output which can act as an input for next sub-step of the pipeline.
 
-For testing, purposes you can download the sample lif file (https://duke.box.com/s/9xy67550rdawj6pk4woqxnyhwknq0n3c) and put it in the /lif/ folder. `sample_date.lif` should be in the lif folder at this point. For example, to convert it to mat, inside MATLAB terminal, type `lif2mat sample_data.lif`. Individual modules are described in detail below.
+For testing purposes, you can download the sample lif file (https://duke.box.com/s/9xy67550rdawj6pk4woqxnyhwknq0n3c) and put it in the /lif/ folder. `sample_date.lif` should be in the lif folder at this point. For example, to convert it to mat, inside MATLAB terminal, type `lif2mat('sample_data.lif')`. Individual modules are described in detail below.
 
 <a name="software-module"></a>
 ### Module description (sample use)
 - `lif2mat`: converts the proprietary Leica file to mat file 
 ```
-life2mat <file_name> %this file should be in /lif/ folder, outputs .mat in /tmp/mat/ folder
+life2mat(<file_name>) %this file should be in /lif/ folder, outputs .mat in /tmp/mat/ folder
 ```
 
 - `findalllocalizations`: find localizations per frame in the entire image stack
 ```
-findalllocalizations <file_name> %this file should be in /mat/ folder, outputs in /tmp/all_pnts/ folder
+findalllocalizations(<file_name>) %this file should be in /mat/ folder, outputs in /tmp/all_pnts/ folder
 ```
 
 - `estdrift`: need localization per frame list to estimate drift using RCC
 ```
-estddrift <file_name> %this file should be in /tmp/all_pnt/s folder, outputs in /tmp/drft_trc/ folder
+estddrift(<file_name>) %this file should be in /tmp/all_pnt/s folder, outputs in /tmp/drft_trc/ folder
 ```
 
 - `crctdrift`: uses estimated drift trace to apply translational shift
 ```
-crctdrift <file_name> %this file should be in /tmp/drft_trc/ folder, outputs in /tmp/drft_crct/ folder
+crctdrift(<file_name>) %this file should be in /tmp/drft_trc/ folder, outputs in /tmp/drft_crct/ folder
 ```
 
 - `calcdatatrend`: uses input mat image stack file to compute z-drift (or trend)
 ```
-calcdatatrend <file_name> <pDegree> %loads file in /tmp/mat/ folder, outputs in /tmp/calcdatatrend/ folder
+calcdatatrend(<file_name>, <pDegree>) %loads file in /tmp/mat/ folder, outputs in /tmp/calcdatatrend/ folder
 ```
 
 - `cropmat`: takes a mat image stack and crops each frame it the stack
 ```
-cropmat <file_name> <prefix> <size> %loads .mat file in /tmp/<prefix>/ folder, outputs in /tmp/crop/ folder
+cropmat(<file_name>, <prefix>, <size>) %loads .mat file in /tmp/<prefix>/ folder, outputs in /tmp/crop/ folder
 ```
 
 - `findlocalizations`: takes an image stack, computes z-projection and finds localization coordinates
 ```
-findlocalizations <file_name> <prefix> <to_display> <threshold1> <threshold2> %loads file in /tmp/<prefix>/ folder, outputs in /tmp/pnts/ folder
+findlocalizations(<file_name>, <prefix>, <to_display>, <threshold1>, <threshold2>) %loads file in /tmp/<prefix>/ folder, outputs in /tmp/pnts/ folder
 ```
 
 - `gettemporalbarcode`: computes the temporal barcode for each coordinate in a 3X3 pixel ROI
 ```
-findlocalizations <file_name> <prefix> <to_display> <threshold1> <threshold2> %loads file in /tmp/<prefix>/ folder, outputs in /tmp/pnts/ folder
+findlocalizations(<file_name>, <prefix>, <to_display>, <threshold1>, <threshold2>) %loads file in /tmp/<prefix>/ folder, outputs in /tmp/pnts/ folder
 ```
 
 - `getstatechain`: applies mean shift to denoise temporal barcode into state chain
 ```
-getstatechain <file_name> <BW> <min_on> <min_db> <states> %tloads file in /tmp/pnts/ folder, outputs in /tmp/brcd/ folder
+getstatechain(<file_name>, <BW>, <min_on>, <min_db>, <states>) %tloads file in /tmp/pnts/ folder, outputs in /tmp/brcd/ folder
 ```
 
 - `analyzebarcode`: computes parameters such as on-time, off-time using denoised state chain
 ```
-analyzebarcode <file_name> <expTime> %loads file in /tmp/st_chn/ folder, outputs in /tmp/stats/ folder
+analyzebarcode(<file_name>, <expTime>) %loads file in /tmp/st_chn/ folder, outputs in /tmp/stats/ folder
 ```
 
 <a name="software-dependencies"></a>
