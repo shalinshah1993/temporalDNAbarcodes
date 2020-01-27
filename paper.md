@@ -40,7 +40,10 @@ Once the drift corrected data stack is available, our algorithm applies several 
 
 A pre-release version of ``ExTemp`` has been used in scientific publications to demonstrate the computational pipeline, signal processing [@shah2019programming] and potential applications [@shah2018temporal].  The ``ExTemp`` package is implemented in MATLAB.
 
-# Acknowledgements
+## Author contributions
+S.S collected the data, wrote the paper and MATLAB scripts for the package. S.S and A.D designed fast algorithms and pipeline for the suite. J.R supervised the study and reviewed the paper. 
+
+## Acknowledgements
 This work was supported by National Science Foundation Grants CCF-1813805 and CCF-1617791.
 
 # References
