@@ -49,7 +49,7 @@ Once the drift corrected data stack is available, we apply several filters to lo
 ### Installation
 To use `ExTemp`, simply add its top-level directory to the MATLAB path. All functions are organized in packages. Most modules are stand-alone i.e they take in a file process the intermediate step of pipeline and returns processed output which can act as an input for next sub-step of the pipeline.
 
-For testing, purposes you can use lif file inside lif folder called `sample_date.avi`. For example, to convert it to mat, inside MATLAB terminal, type `lif2mat sample_data.avi`. Individual modules are described in detail below.
+For testing, purposes you can download the sample lif file (https://duke.box.com/s/9xy67550rdawj6pk4woqxnyhwknq0n3c) and put it in the /lif/ folder. `sample_date.lif` should be in the lif folder at this point. For example, to convert it to mat, inside MATLAB terminal, type `lif2mat sample_data.lif`. Individual modules are described in detail below.
 
 <a name="software-module"></a>
 ### Module description (sample use)
