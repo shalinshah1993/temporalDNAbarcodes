@@ -60,7 +60,7 @@ life2mat(<file_name>) %this file should be in /lif/ folder, outputs .mat in /tmp
 
 - `findalllocalizations`: find localizations per frame in the entire image stack
 ```
-findalllocalizations(<file_name>) %this file should be in /mat/ folder, outputs in /tmp/all_pnts/ folder
+findalllocalizations(<file_name>) %this file should be in /video/ folder, outputs in /tmp/all_pnts/ folder
 ```
 
 - `estdrift`: need localization per frame list to estimate drift using RCC
