@@ -90,7 +90,7 @@ findlocalizations(<file_name>, <prefix>, <to_display>, <threshold1>, <threshold2
 
 - `gettemporalbarcode`: computes the temporal barcode for each coordinate in a 3X3 pixel ROI
 ```
-findlocalizations(<file_name>, <prefix>, <to_display>, <threshold1>, <threshold2>) %loads file in /tmp/<prefix>/ folder, outputs in /tmp/pnts/ folder
+gettemporalbarcode(<file_name>, <prefix>) %loads file in /tmp/<prefix>/ folder, outputs in /tmp/pnts/ folder
 ```
 
 - `getstatechain`: applies mean shift to denoise temporal barcode into state chain
