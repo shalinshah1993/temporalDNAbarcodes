@@ -110,6 +110,8 @@ analyzebarcode(<file_name>, <expTime>) %loads file in /tmp/st_chn/ folder, outpu
 - meanshift - https://www.mathworks.com/matlabcentral/fileexchange/10161-mean-shift-clustering
 - sauvola - https://www.mathworks.com/matlabcentral/fileexchange/40266-sauvola-local-image-thresholding
 - Statistics and machine learning toolbox (MATLAB): https://www.mathworks.com/products/statistics.html
+- Wavelet toolbox (MATLAB) - https://www.mathworks.com/products/wavelet.html
+- Computer vision toolbox (MATLAB) - https://www.mathworks.com/products/computer-vision.html
 
 <a name="license-contrib-reports"></a>
 
