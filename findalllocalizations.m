@@ -44,7 +44,7 @@ function findalllocalizations(file, threshold, ...
             % number of localizations in each frame
             localizations(iFrame) = size(points, 1);
 
-            if toDisplayFrames
+            if toDisplayFrames && ~sum(isnan(points(:)))
                 figure(1);          
                 localized_frame = insertShape(cur_frame,'circle', [points(:, 1) ...
                     points(:, 2) 3.*ones(length(points(:, 1)), 1)], 'LineWidth', 1);
