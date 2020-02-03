@@ -65,12 +65,12 @@ findalllocalizations(<file_name>) %this video file should be in /video/ folder, 
 
 - `estdrift`: need localization per frame list to estimate drift using RCC
 ```
-estddrift(<file_name>) %this file should be in /tmp/all_pnt/s folder, outputs in /tmp/drft_trc/ folder
+estddrift(<file_name>, <toDisplay>, <segSize>) %this file should be in /tmp/all_pnt/s folder, outputs in /tmp/drft_trc/ folder
 ```
 
 - `crctdrift`: uses estimated drift trace to apply translational shift
 ```
-crctdrift(<file_name>) %this file should be in /tmp/drft_trc/ folder, outputs in /tmp/drft_crct/ folder
+crctdrift(<file_name>, <debug>) %this file should be in /tmp/drft_trc/ folder, outputs in /tmp/drft_crct/ folder
 ```
 
 - `calcdatatrend`: uses input mat image stack file to compute z-drift (or trend)
