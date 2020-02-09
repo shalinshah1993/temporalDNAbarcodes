@@ -23,9 +23,13 @@
 <a name="overview"></a>
 This software contains modules that are a part of the temporal DNA barcoding framework. It is a single-molecule imaging technique that uses time-domain to encode information for optical multiplexing. Although, the scripts were developed to our framework, they can be used for any arbitrary microscopy project that requires data extraction from fluorescence microscopy data.
 
-If you find our suite helpful, please cite our paper(s):
+If you find our software suite helpful, please cite our paper(s):
 
 `Shalin Shah, Abhishek Dubey, and John Reif. "Programming temporal DNA barcodes for single-molecule fingerprinting". Nano Letters (2019) DOI: 10.1021/acs.nanolett.9b00590` [[PDF]](https://pubs.acs.org/doi/10.1021/acs.nanolett.9b00590)
+
+`Shalin Shah, Abhishek Dubey, and John Reif. "ExTemp: A computational and image-processing suite for extracting temporal barcodes". Journal of open source software. 5(46) 2026 (2020) DOI: 10.1021/acs.nanolett.9b00590` [[PDF]](https://doi.org/doi/10.21105/joss.02026)
+
+If you find temporal DNA barcodes useful, please cite our paper(s):
 
 `Shalin Shah, Abhishek Dubey, and John Reif. "Improved optical multiplexing with temporal DNA barcodes". ACS Synthetic Biology (2019) DOI: 10.1021/acssynbio.9b00010` [[PDF]](https://pubs.acs.org/doi/10.1021/acssynbio.9b00010)
 
