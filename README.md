@@ -1,5 +1,6 @@
 # ExTemp: A computational and image-processing suite for extracting temporal barcodes
 
+[![DOI](https://joss.theoj.org/papers/10.21105/joss.02026/status.svg)](https://doi.org/10.21105/joss.02026)
 [![GitHub release](https://img.shields.io/github/release/ailiop/idvf.svg)](https://github.com/shalinshah1993/temporalDNAbarcodes/releases/)
 [![GitHub license](https://img.shields.io/github/license/shalinshah1993/temporalDNAbarcodes.svg)](https://github.com/ailiop/temporalDNAbarcodes/blob/master/LICENSE)
 [![GitHub all releases](https://img.shields.io/github/downloads/shalinshah1993/temporalDNAbarcodes/total.svg)](https://github.com/shalinshah1993/temporalDNAbarcodes/releases/)
@@ -27,7 +28,7 @@ If you find our software suite helpful, please cite our paper(s):
 
 `Shalin Shah, Abhishek Dubey, and John Reif. "Programming temporal DNA barcodes for single-molecule fingerprinting". Nano Letters (2019) DOI: 10.1021/acs.nanolett.9b00590` [[PDF]](https://pubs.acs.org/doi/10.1021/acs.nanolett.9b00590)
 
-`Shalin Shah, Abhishek Dubey, and John Reif. "ExTemp: A computational and image-processing suite for extracting temporal barcodes". Journal of Open Source Software. 5(46) 2026 (2020) DOI: 10.21105/joss.02026` [[PDF]](https://doi.org/doi/10.21105/joss.02026)
+`Shalin Shah, Abhishek Dubey, and John Reif. ExTemp: A computational and image-processing suite for extracting temporal barcodes. Journal of Open Source Software, 5(46), 2026, DOI: 10.21105/joss.02026` [[PDF]](https://joss.theoj.org/papers/10.21105/joss.02026)
 
 If you find temporal DNA barcodes useful, please cite our paper(s):
 
