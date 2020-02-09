@@ -27,7 +27,7 @@ If you find our software suite helpful, please cite our paper(s):
 
 `Shalin Shah, Abhishek Dubey, and John Reif. "Programming temporal DNA barcodes for single-molecule fingerprinting". Nano Letters (2019) DOI: 10.1021/acs.nanolett.9b00590` [[PDF]](https://pubs.acs.org/doi/10.1021/acs.nanolett.9b00590)
 
-`Shalin Shah, Abhishek Dubey, and John Reif. "ExTemp: A computational and image-processing suite for extracting temporal barcodes". Journal of open source software. 5(46) 2026 (2020) DOI: 10.1021/acs.nanolett.9b00590` [[PDF]](https://doi.org/doi/10.21105/joss.02026)
+`Shalin Shah, Abhishek Dubey, and John Reif. "ExTemp: A computational and image-processing suite for extracting temporal barcodes". Journal of Open Source Software. 5(46) 2026 (2020) DOI: 10.21105/joss.02026` [[PDF]](https://doi.org/doi/10.21105/joss.02026)
 
 If you find temporal DNA barcodes useful, please cite our paper(s):
 
